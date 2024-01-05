@@ -17,7 +17,29 @@ body {
     font-size: 20px;
     font-weight: 700;
     padding: 18px 35px 19px 36px;
+    display: flex;
 
+}
+
+.btn-primary img {
+    margin-right: 10px;
+    width: 24px;
+}
+
+.btn-secondary {
+    display: flex;
+    border-radius: 5px;
+    border: 1px solid #FD6E0A;
+    background: #FFF8F3;
+    color: #FD6E0A;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 18px 35px 19px 36px;
+}
+
+.btn-secondary img {
+    margin-right: 10px;
+    width: 24px;
 }
 
 .section-title {
@@ -71,9 +93,9 @@ nav a {
 
 .header {
     background-color: #FFF8F3;
-    background-image: url('../images/header_bg.png');
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, top left;
 }
 
 .banner {
