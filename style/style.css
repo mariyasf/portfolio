@@ -285,9 +285,7 @@ footer {
 
 /* social-links */
 .social-links a {
-    margin-left: 24px;
-    width: 24px;
-    height: 24px;
+    margin-right: 24px;
 }
 
 /* Message part */
