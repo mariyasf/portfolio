@@ -188,6 +188,7 @@ main section {
 
 .resume-container {
     display: flex;
+    gap: 71px;
 }
 
 .resume-column-title {
@@ -200,16 +201,29 @@ main section {
     color: var(--Dark-02, #474747);
     font-size: 25px;
     font-weight: 700;
+    margin-bottom: 10px;
 }
 
 .resume-item-institue {
     color: var(--Dark-03, #757575);
     font-size: 20px;
     font-weight: 600;
+    margin-top: 0px;
+    margin-bottom: 20px;
 }
 
 .resume-item-description {
     color: var(--Dark-03, #757575);
     font-size: 16px;
     font-weight: 400;
+}
+
+.resume-container hr {
+    background: #D1D1D1;
+}
+
+.dwnld-cv {
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 50px;
 }
