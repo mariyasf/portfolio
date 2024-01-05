@@ -17,7 +17,6 @@ body {
     font-size: 20px;
     font-weight: 700;
     padding: 18px 35px 19px 36px;
-    display: flex;
 
 }
 
@@ -27,7 +26,6 @@ body {
 }
 
 .btn-secondary {
-    display: flex;
     border-radius: 5px;
     border: 1px solid #FD6E0A;
     background: #FFF8F3;
